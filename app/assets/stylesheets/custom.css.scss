@@ -1,0 +1,28 @@
+@import "bootstrap";
+.container{
+  width:100% !important;
+  max-width:980px !important;
+}
+.clear{
+  margin:40px 0;
+  display:block;
+  clear:both;
+}
+body{
+  background:#7C72E9 url(bg.png)repeat center center;
+}
+.hero-unit{
+  background:#fff;
+}
+.signup-button{
+  padding-left:30px;
+  padding-right:30px;
+}
+.signup-form{
+  max-width:450px;
+  background:#fff;
+  border:solid 1px #ddd;
+  border-radius:3px;
+  margin:auto;
+  padding:20px;
+}
