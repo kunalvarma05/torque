@@ -2,7 +2,7 @@ App::Application.routes.draw do
   resources :users  
   get "signup/index"
   match '/about',    to: 'pages#about',    via: 'get'
-  match '/signup',  to: 'users#new',            via: 'get'
+  match '/signup',  to: 'signup#index',            via: 'get'
   get "pages/about"
   get "welcome/index"
   # The priority is based upon order of creation: first created -> highest priority.
