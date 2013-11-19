@@ -13,16 +13,23 @@ body{
 }
 .hero-unit{
   background:#fff;
+  margin-top:60px;
 }
+//Sign up form
 .signup-button{
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:50px;
+  padding-right:50px;
 }
 .signup-form{
-  max-width:450px;
+  max-width:300px;
   background:#fff;
   border:solid 1px #ddd;
   border-radius:3px;
   margin:auto;
+  margin-top:60px;
+  margin-bottom:20px;
   padding:20px;
+}
+.signup-form .input, .btn{
+  height:40px;
 }
