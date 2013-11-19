@@ -12,9 +12,7 @@
 			<div class="container">
 				<%= render 'layouts/header' %>
 				<%= yield %>
-				<div class="well">
-					<%= debug(params) if Rails.env.development? %>
-				</div>
+				<%= debug(params) if Rails.env.development? %>
 			</div>
 		</div>
 	</body>
